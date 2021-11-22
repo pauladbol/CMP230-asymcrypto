@@ -10,7 +10,7 @@ def generate_q():
         if q > private_key:
             return q
         else:
-            return sympy.randprime(q, (q * 2))
+            return sympy.randprime(private_key, (q * 2))
 
     return sympy.randprime(private_key, (private_key * 2))
 

@@ -151,5 +151,5 @@ options = {
     3: decipher_rsa_message,
 }
 
-result = options.get(option_input)()
-print(result)
+opt_result = options.get(option_input)()
+print(opt_result)
